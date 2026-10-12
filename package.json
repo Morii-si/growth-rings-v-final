@@ -1,0 +1,16 @@
+{
+  "name": "growth-rings-v-final",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Complete frontend-only Growth Rings demo. No dependencies or backend.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node tools.mjs serve",
+    "start": "node tools.mjs serve",
+    "build": "node tools.mjs build",
+    "preview": "node tools.mjs preview"
+  }
+}
